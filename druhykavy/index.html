@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Druhy kávy</title>
+  <style>
+    .container {
+      display: flex;
+    }
+    .list {
+      flex: 1;
+      padding-right: 20px;
+    }
+    .image {
+      flex: 1;
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+    }
+    .image img {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-navbar nav-link" >
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Káva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../odrudykavy/index.html">Odrůdy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../puvodKavy/index.html">Původ kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../druhykavy/index.html">Druhy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../historiekavy/index.html">Historie kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pripravakavy/index.html">Příprava kávy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/Coffee_art.jpg" class="d-block w-100"  alt="Coffee_art">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_machine.jpg" class="d-block w-100" alt="Coffee_machine">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_beans.jpg" class="d-block w-100" alt="Coffee_beans">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <main>
+        <div class="container">
+          <div class="list">
+            <h2>Deset nejbeznejiších kávových nápojů</h2>
+            <ul>
+              <li>
+                <h2>Espresso</h2>
+                <p>Espresso je koncentrovaný kávový nápoj, který se připravuje extrakcí horké vody pod tlakem skrz jemně mletou kávu. Má intenzivní chuť a silnou kávovou vůni.</p>
+              </li>
+              <li>
+                <h2>Cappuccino</h2>
+                <p>Cappuccino je kombinace espresso kávy, horkého mléka a mléčné pěny. Má lahodnou rovnováhu mezi kávovou chutí a jemností mléčné pěny.</p>
+              </li>
+              <li>
+                <h2>Latte</h2>
+                <p>Latte je kávový nápoj s vyšším podílem horkého mléka a jemnou vrstvou mléčné pěny na povrchu. Má jemnou chuť a je často ozdobené latte art vzorem.</p>
+              </li>
+              <li>
+                <h2>Mocha</h2>
+                <p>Mocha je kombinace espresso kávy, horkého mléka, čokolády a mléčné pěny. Má sladkou chuť s příjemným čokoládovým aroma.</p>
+              </li>
+              <li>
+                <h2>Americano</h2>
+                <p>Americano je kávový nápoj vytvořený ředěním jednoho nebo dvou espresso shotů horkou vodou. Má podobnou sílu jako filtrovaná káva.</p>
+              </li>
+              <li>
+                <h2>Flat White</h2>
+                <p>Flat White je kávový nápoj s dvojitou dávkou espresso a horkým mlékem. Má jemnou a hedvábnou texturu s bohatou chutí.</p>
+              </li>
+              <li>
+                <h2>Macchiato</h2>
+                <p>Macchiato je kávový nápoj s jednou dávkou espresso a malým množstvím mléka nebo mléčné pěny. Má silnou kávovou chuť s lehkým dotykem mléka.</p>
+              </li>
+              <li>
+                <h2>Affogato</h2>
+                <p>Affogato je kombinace horkého espresso a kopečku vanilkové zmrzliny. Má osvěžující kombinaci kávy a sladkého dezertu.</p>
+              </li>
+              <li>
+                <h2>Irish Coffee</h2>
+                <p>Irish Coffee je kávový nápoj s přidaným irským whisky, hnědým cukrem a vrstvou šlehačky na vrchu. Má teplou a povznášející chuť.</p>
+              </li>
+              <li>
+                <h2>Frappé</h2>
+                <p>Frappé je studený kávový nápoj s ledem, rozpuštěnou instantní kávou, mlékem a cukrem. Je osvěžující a ideální pro horké letní dny.</p>
+              </li>
+            </ul>
+          </div>
+          <div class="image">
+            <img src="../druhykavy/images/nabidka.jpg" alt="Nabídka káv">
+          </div>
+        </div>
+     
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<footer>
+  <p>&copy; 2023 Moje Kávové Stránky  Aleš Včelka IT1</p>
+</footer>
+</body>
+</html>

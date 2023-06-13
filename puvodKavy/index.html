@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Původ kávy</title>
+  <style>
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+    }
+
+    .column {
+      flex-basis: 23%;
+      text-align: center;
+    }
+
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-navbar nav-link" >
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Káva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../odrudykavy/index.html">Odrůdy kávy</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="../puvodKavy/index.html">Původ kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../druhykavy/index.html">Druhy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../historiekavy/index.html">Historie kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pripravakavy/index.html">Příprava kávy</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/Coffee_art.jpg" class="d-block w-100"  alt="Coffee_art">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_machine.jpg" class="d-block w-100" alt="Coffee_machine">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_beans.jpg" class="d-block w-100" alt="Coffee_beans">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <main>
+    <section>
+      <div class="container">
+        <div class="column">
+          <h2>Původ kávy</h2>
+          <img src="../puvodKavy/images/oblasti.jpg" alt="Tropické oblasti">
+          <p>
+            Káva pochází z tropických oblastí po celém světě. Největšími producenty kávy jsou země jako Brazílie,
+            Kolumbie, Etiopie a Vietnam. Každá z těchto zemí má své vlastní unikátní podmínky pro pěstování
+            a zpracování kávy, což ovlivňuje chuť a charakter jednotlivých odrud.
+          </p>
+          <p>
+            Výběr kávy z konkrétní pěstitelské oblasti může být skvělým způsobem, jak objevovat rozdíly
+            v chuti a aromatu mezi jednotlivými regiony. Můžete si vychutnat plnou a sladkou chuť
+            jihoamerických káv, nebo se ponořit do exotických tónů afrických káv s ovocnými a květinovými
+            aroma.
+          </p>
+        </div>
+      <div class="container">
+        <div class="column">
+          <h2>Jižní Amerika</h2>
+          <img src="../puvodKavy/images/JAmerika.jpg" alt="Jižní Amerika">
+          <p>
+            Brazílie je největším producentem kávy na světě a vydává mnoho druhů arabiky. Kolumbie je známá svou kvalitní arabikou s vyváženou chutí. Dalšími významnými producenty jsou Peru, Ekvádor a Bolívie.
+          </p>
+        </div>
+        <div class="column">
+          <h2>Střední Amerika</h2>
+          <img src="../puvodKavy/images/SAmerika.jpg" alt="Střední Amerika">
+          <p>
+            Káva z regionu Střední Ameriky je obecně vyhlášená pro svou jemnost a jemné kyselosti. Costa Rica, Guatemala, Honduras a Salvador jsou známé producenty kávy ve Střední Americe.
+          </p>
+        </div>
+        <div class="column">
+          <h2>Afrika</h2>
+          <img src="../puvodKavy/images/afrika.jpg" alt="Afrika">
+          <p>
+            Etiopie je považována za kolébku kávy a má dlouhou historii v pěstování kávovníku arabického. Káva z Keni je také ceněna pro svou vysokou kvalitu a výrazné ovocné tóny. Dalšími významnými africkými producenty jsou Tanzanie, Rwanda a Uganda.
+          </p>
+        </div>
+        <div class="column">
+          <h2>Asie</h2>
+          <img src="../puvodKavy/images/Asie.jpg" alt="Asie">
+          <p>
+            Káva z Asie se vyznačuje svými jedinečnými charakteristikami. Indonésie je největším producentem kávy v Asii a známá je zejména arabika z ostrova Sumatra. Vietnam je druhým největším producentem kávy na světě a specializuje se na robustu.
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<footer>
+  <p>&copy; 2023 Moje Kávové Stránky  Aleš Včelka IT1</p>
+</footer>
+</body>
+</html>
