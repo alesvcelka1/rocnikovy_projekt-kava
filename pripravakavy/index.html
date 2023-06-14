@@ -1,34 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cs">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title class="title">Příprava kávy</title>
-  <style>
-    .container {
-      display: flex;
-    }
-
-    .text {
-      flex: 1;
-      margin-right: 20px;
-    }
-
-    .image {
-      width: 200px;
-      text-align: center;
-    }
-
-    .image img {
-      max-width: 100%;
-      height: auto;
-    }
-
-    h2 {
-      text-align: center;
-    }
-  </style>
+  
   <link rel="stylesheet" href="../style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
 </head>
@@ -91,123 +68,145 @@
     </a>
   </div>
   <main>
+    <h2 style="text-align:center;">Příprava kávy</h2>
     <div class="container">
-      <div class="text">
-        <h2>Způsoby přípravy kávy</h2>
-        <p>Zde jsou některé z nejpopulárnějších způsobů přípravy kávy:</p>
-        <ul>
-          <li>
+        <div class="row">
+          <div class="col-sm-4">
             <h3>Dripová káva</h3>
-            <div class="container">
-              <div class="text">
-                <p>Dripová káva, známá také jako filtrovaná káva, je jedním z nejoblíbenějších způsobů přípravy kávy po
-                  celém světě. Tento způsob výroby kávy je poměrně jednoduchý, ale vyžaduje správnou techniku a kvalitní
-                  kávovou směs.</p>
-                <p>
-                  Dripová káva, známá také jako filtrovaná káva, je jedním z nejoblíbenějších způsobů přípravy kávy po
-                  celém světě. Tento způsob výroby kávy je poměrně jednoduchý, ale vyžaduje správnou techniku a kvalitní
-                  kávovou směs.
+            <p>Dripová káva, známá také jako filtrovaná káva, je jedním z nejoblíbenějších způsobů přípravy kávy po
+                celém světě. Tento způsob výroby kávy je poměrně jednoduchý, ale vyžaduje správnou techniku a kvalitní
+                kávovou směs.</p>
+              <p>
+                Dripová káva, známá také jako filtrovaná káva, je jedním z nejoblíbenějších způsobů přípravy kávy po
+                celém světě. Tento způsob výroby kávy je poměrně jednoduchý, ale vyžaduje správnou techniku a kvalitní
+                kávovou směs.</p>
 
-                  Při přípravě dripové kávy je horká voda postupně přelévána přes mletá kávová zrna, která jsou umístěna
-                  v papírovém nebo textilním filtru. Tento proces umožňuje pomalou extrakci aromatických olejů a chutí z
-                  kávových zrn.</p>
-                  <h5>Příprava kávy pomocí metody dripperu (dripového konvičkového systému) ve zkratce:</h5>
-                  <ol>
-                    <li>Ohřejte vodu na teplotu kolem 93-96 °C.</li>
-                    <li>Vložte papírový filtr do dripperu a vložte dripper na konvičku nebo šálek.</li>
-                    <li>Jemně mletou kávu přidejte do papírového filtru (poměr kávy a vody dle preference).</li>
-                    <li>Zalijte kávu malým množstvím vody a nechte ji "rozkvést" po dobu 30-45 sekund. Tím se uvolní plynulá oxidace kávy a zlepší se extrakce chutí.</li>
-                    <li>Postupně zalévejte kávu vodou ve spirálovém pohybu, abyste pokryli celou plochu kávového lůžka. Zalévání by mělo být rovnoměrné, ale ne příliš rychlé.</li>
-                    <li>Pokračujte zaléváním vodou a udržujte rovnoměrný proud a poměr kávy a vody. Celý proces zalévání by měl trvat přibližně 2-3 minuty.</li>
-                    <li>Po dokončení zalévání počkejte, až se voda propere filtrem a káva stéká do konvičky nebo šálku.</li>
-                    <li>Odeberte dripper a servírujte čerstvě připravenou kávu.</li>
-                  </ol>
-                </div>
-              <div class="image">
-                <img src="../pripravakavy/images/drip.jpg" alt="Dripová káva">
-              </div>
-            </div>
-          </li>
-          <li>
-            <h3>French press</h3>
-            <div class="container">
-              <div class="text">
-                <p>French press, známý také jako plunger pot, je další populární způsob přípravy kávy, který vytváří
-                  silný a aromatický nápoj. Tento způsob je ceněn pro svou jednoduchost a schopnost zachytit bohatou
-                  chuť a aroma kávy.</p>
-                <h5>Příprava kávy v French pressu ve zkratce:</h5>
-                <ol>
-                  <li>Poměr kávy a vody: 1 gram kávy na 15 gramů vody (poměr lze upravit).</li>
-                  <li>Použijte hrubší mletí kávy.</li>
-                  <li>Ohřejte vodu na 93-96 °C.</li>
-                  <li>Přidejte kávu do French pressu.</li>
-                  <li>Zalijte horkou vodou, dobře promíchejte. </li>
-                  <li>Nechte kávu louhovat 4-5 minut.</li>
-                  <li>Stlačte filtr dolů.</li>
-                  <li>Podávejte a užívejte si kávu.</li>
-                </ol>
-              </div>
-              <div class="image">
-                <img src="../pripravakavy/images/french.jpg" alt="French press">
-              </div>
-            </div>
-          </li>
-          <li>
-            <h3>Aeropress</h3>
-            <div class="container">
-              <div class="text">
-                <p>Aeropress je inovativní způsob přípravy kávy, který kombinuje extrakci tlakem a překapáváním.
-                  Výsledkem je hladký a čistý nápoj s možností různých úrovní extrakce. Tento přenosný kávovar je
-                  ideální pro domácí použití i cestování.</p>
-                <h5>Příprava kávy v AeroPressu ve zkratce:</h5>
-                <ol>
-                  <li>Ohřejte vodu na teplotu kolem 80 °C.</li>
-                  <li>Nasajte papírový filtr do plastového víčka a připevněte ho na spodní část AeroPressu.</li>
-                  <li>Vložte jemně mletou kávu do AeroPressu (množství podle vašich preferencí).</li>
-                  <li>Zalijte kávu horkou vodou a promíchejte.</li>
-                  <li>Vložte píst a opatrně stlačte dolů, aby káva začala protékat filtrem.</li>
-                  <li>Stlačte píst až na dno AeroPressu.</li>
-                  <li>Podávejte a užívejte si kávu.</li>
-
-                </ol>
-              </div>
-              <div class="image">
-                <img src="../pripravakavy/images/aero.jpg" alt="Aeropress">
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="container">
-              <div class="text">
-                <h3>Pákový kávovar</h3>
-                <p>Pákový kávovar je profesionální zařízení, které umožňuje připravit vynikající espreso pomocí tlaku,
-                  který se vytváří ručním ovládáním páky. Pákové kávovary jsou tradiční a populární způsob přípravy
-                  kávy, který umožňuje přesnou kontrolu nad procesem extrakce. Tyto kávovary používají páku nebo páčku k
-                  vytvoření tlaku a extrakci esence kávy.</p>
-              </div>
-              <div class="image">
-                <img src="../pripravakavy/images/lever.jpg" alt="Pákový kávovar">
-              </div>
-            </div>
-          </li>
-          <li>
-            <div class="container">
-              <div class="text">
-                <h3>Běžný kávovar</h3>
-                <p>Běžný kávovar je nejběžnější způsob přípravy kávy, který využívá automatického systému pro přípravu
-                  kávy z mletých zrn. Běžné kávovary jsou elektrické přístroje, které se běžně používají v domácnostech,
-                  kancelářích a restauracích pro přípravu kávy. Jsou navrženy tak, aby byla příprava kávy snadná, rychlá
-                  a pohodlná.</p>
-              </div>
-              <div class="image">
-                <img src="../pripravakavy/images/casual.jpg" alt="Běžný kávovar">
-              </div>
-            </div>
-          </li>
-        
-        </ul>
+                <p>Při přípravě dripové kávy je horká voda postupně přelévána přes mletá kávová zrna, která jsou umístěna
+                v papírovém nebo textilním filtru. Tento proces umožňuje pomalou extrakci aromatických olejů a chutí z
+                kávových zrn.</p>
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="../pripravakavy/images/drip.jpg" alt="Obrázek" class="img-fluid">
+          </div>
+          <div class="col-sm-4">
+            <h5>Příprava kávy pomocí metody dripperu (dripového konvičkového systému) ve zkratce:</h5>
+            <ol>
+                <li>Ohřejte vodu na teplotu kolem 93-96 °C.</li>
+                <li>Vložte papírový filtr do dripperu a vložte dripper na konvičku nebo šálek.</li>
+                <li>Jemně mletou kávu přidejte do papírového filtru (poměr kávy a vody dle preference).</li>
+                <li>Zalijte kávu malým množstvím vody a nechte ji "rozkvést" po dobu 30-45 sekund. Tím se uvolní plynulá oxidace kávy a zlepší se extrakce chutí.</li>
+                <li>Postupně zalévejte kávu vodou ve spirálovém pohybu, abyste pokryli celou plochu kávového lůžka. Zalévání by mělo být rovnoměrné, ale ne příliš rychlé.</li>
+                <li>Pokračujte zaléváním vodou a udržujte rovnoměrný proud a poměr kávy a vody. Celý proces zalévání by měl trvat přibližně 2-3 minuty.</li>
+                <li>Po dokončení zalévání počkejte, až se voda propere filtrem a káva stéká do konvičky nebo šálku.</li>
+                <li>Odeberte dripper a servírujte čerstvě připravenou kávu.</li>
+              </ol>
+          </div>
+        </div>
       </div>
-    </div>
+
+      <div style="margin-top: 30px;" class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>French press</h3>
+            <p>French press, známý také jako plunger pot, je další populární způsob přípravy kávy, který vytváří
+                silný a aromatický nápoj. Tento způsob je ceněn pro svou jednoduchost a schopnost zachytit bohatou
+                chuť a aroma kávy.</p>
+             
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="../pripravakavy/images/french.jpg" alt="Obrázek" class="img-fluid">
+          </div>
+          <div class="col-sm-4">
+            <h5>Příprava kávy v French pressu ve zkratce:</h5>
+            <ol>
+                <li>Poměr kávy a vody: 1 gram kávy na 15 gramů vody (poměr lze upravit).</li>
+                <li>Použijte hrubší mletí kávy.</li>
+                <li>Ohřejte vodu na 93-96 °C.</li>
+                <li>Přidejte kávu do French pressu.</li>
+                <li>Zalijte horkou vodou, dobře promíchejte. </li>
+                <li>Nechte kávu louhovat 4-5 minut.</li>
+                <li>Stlačte filtr dolů.</li>
+                <li>Podávejte a užívejte si kávu.</li>
+              </ol>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 30px;" class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>AeroPress</h3>
+            <p>Aeropress je inovativní způsob přípravy kávy, který kombinuje extrakci tlakem a překapáváním.
+                Výsledkem je hladký a čistý nápoj s možností různých úrovní extrakce. Tento přenosný kávovar je
+                ideální pro domácí použití i cestování.</p>
+             
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="../pripravakavy/images/aero.jpg" alt="Obrázek" class="img-fluid">
+          </div>
+          <div class="col-sm-4">
+            <h5>Příprava kávy v AeroPressu ve zkratce:</h5>
+            <ol>
+                <li>Ohřejte vodu na teplotu kolem 80 °C.</li>
+                <li>Nasajte papírový filtr do plastového víčka a připevněte ho na spodní část AeroPressu.</li>
+                <li>Vložte jemně mletou kávu do AeroPressu (množství podle vašich preferencí).</li>
+                <li>Zalijte kávu horkou vodou a promíchejte.</li>
+                <li>Vložte píst a opatrně stlačte dolů, aby káva začala protékat filtrem.</li>
+                <li>Stlačte píst až na dno AeroPressu.</li>
+                <li>Podávejte a užívejte si kávu.</li>
+
+              </ol>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 30px;" class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Pákový kávovar</h3>
+            <p>Pákový kávovar je profesionální zařízení, které umožňuje připravit vynikající espreso pomocí tlaku,
+                který se vytváří ručním ovládáním páky. Pákové kávovary jsou tradiční a populární způsob přípravy
+                kávy, který umožňuje přesnou kontrolu nad procesem extrakce. Tyto kávovary používají páku nebo páčku k
+                vytvoření tlaku a extrakci esence kávy.</p>
+             
+          </div>
+          <div class="col-sm-4 text-center">
+            <img src="../pripravakavy/images/lever.jpg" alt="Obrázek" class="img-fluid">
+          </div>
+          <div class="col-sm-4">
+            <h5>Jak vybrat?</h5>
+            <ol>
+                <li>Zeptejte se sami sebe jak často bude kávovar používat.</li>
+                <li>Kolik chcete investovat, nechat si rezervu na mlýnek.</li>
+                <li>Chuť se odvíjí od tlaku, příkonu a kvality kávy.</li>
+              </ol>
+          </div>
+        </div>
+      </div>
+      <div style="margin-top: 30px;" class="container">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3>Automatický kávovar</h3>
+           <p>Automatické kávovary jsou moderní zařízení navržená pro pohodlnou a jednoduchou přípravu kávy. Tyto kávovary mají integrovaný systém, který ovládá proces extrakce kávy a připravuje nápoje s minimálním zásahem uživatele.</p>
+
+                     
+                  </div>
+                  <div class="col-sm-4 text-center">
+                    <img src="../pripravakavy/images/casual.jpg" alt="Obrázek" class="img-fluid">
+                  </div>
+                  <div class="col-sm-4">
+                    <h5>Zde jsou některé výhody a vlastnosti automatických kávovarů:
+                    </h5>
+                    <ol>
+                        <li>Jednoduchost použití.</li>
+                        <li>Přesnost a konzistence.</li>
+                        <li>Výběr různých nápojů.</li>
+                      <li>Možnost personalizace.</li>
+                      <li>Čištění a údržba.</li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+             
+        
   </main>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
