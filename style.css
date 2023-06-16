@@ -12,4 +12,11 @@ footer {
   padding: 20px;
   text-align: center;
 }
-
+h1, h2{
+  color: #4a2c2a;
+  padding: 10px;
+}
+h3, h4, h5{
+  color: #d0bb94 ;
+  padding: 10px;
+}
