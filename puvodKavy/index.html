@@ -28,8 +28,32 @@
     .footer{
       text-align: center;
     }
-    body{
-      padding: 10px;
+    
+    #my-container {
+      display: flex;
+      align-items: center;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      margin-bottom: 20px;
+      
+    }
+
+    #text-column {
+      flex: 1;
+      padding: 20px;
+      padding-left: 120px;
+    }
+
+    #image-column {
+      flex: 1;
+      text-align: center;
+
+    }
+
+    #image-column img {
+      max-width: 100%;
+      height: auto;
     }
   </style>
   <meta name="description"
@@ -68,7 +92,7 @@
             <a class="nav-link" href="../kavarny/index.html">Kavárny v Opavě</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../puvodKavy/index.html">Galerie</a>
+            <a class="nav-link" href="../galerie/index.html">Galerie</a>
           </li>
         </ul>
       </div>
@@ -103,9 +127,9 @@
     </a>
   </div>
   <main>
-    <div class="container">
+    <div id="my-container">
+      <div id="text-column">
         <h2>Původ kávy</h2>
-       
         <p>
           Káva pochází z tropických oblastí po celém světě. Největšími producenty kávy jsou země jako Brazílie,
           Kolumbie, Etiopie a Vietnam. Každá z těchto zemí má své vlastní unikátní podmínky pro pěstování
@@ -117,8 +141,11 @@
           jihoamerických káv, nebo se ponořit do exotických tónů afrických káv s ovocnými a květinovými
           aroma.
         </p> 
+            </div>
+      <div id="image-column">
         <img src="../puvodKavy/images/oblasti.jpg" alt="Tropické oblasti">
       </div>
+    </div>
     <section>
       <div class="container">
         <div class="column">
