@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Galerie</title>
+  <meta name="description"
+  content="Galerie">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-navbar nav-link">
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Káva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../odrudykavy/index.html">Odrůdy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../puvodKavy/index.html">Původ kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../druhykavy/index.html">Druhy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../historiekavy/index.html">Historie kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="../pripravakavy/index.html">Příprava kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../kavarny/index.html">Kavárny v Opavě</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../puvodKavy/index.html">Galerie</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/Coffee_art.jpg" class="d-block w-100" alt="Coffee_art">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_machine.jpg" class="d-block w-100" alt="Coffee_machine">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_beans.jpg" class="d-block w-100" alt="Coffee_beans">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <main>
+     <div class="container">
+        <h2>Galerie</h2>
+    
+        <div class="row">
+          <div class="col-md-4">
+            <a href="../galerie/images/coffee_art.jpg" data-bs-toggle="modal" data-bs-target="#imageModal1">
+              <img src="../galerie/images/coffee_art_thum.jpg" alt="Coffee art" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../galerie/images/iced_coffee.jpg" data-bs-toggle="modal" data-bs-target="#imageModal2">
+              <img src="../galerie/images/iced_coffee_thum.jpg" alt="Iced coffee" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../galerie/images/lever.jpg" data-bs-toggle="modal" data-bs-target="#imageModal3">
+              <img src="../galerie/images/lever_thum.jpg" alt="Lever in diferent ways" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../galerie/images/types_of_coffee.jpg" data-bs-toggle="modal" data-bs-target="#imageModal4">
+              <img src="../galerie/images/types_of_coffee_thum.jpg" alt="Image 4" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../galerie/images/coffee_machine.jpg" data-bs-toggle="modal" data-bs-target="#imageModal5">
+              <img src="../galerie/images/coffee_machine_thum.jpg" alt="Coffee machine" class="img-fluid">
+            </a>
+          </div>
+          <div class="col-md-4">
+            <a href="../galerie/images/neon_coffee.jpg" data-bs-toggle="modal" data-bs-target="#imageModal6">
+              <img src="../galerie/images/neon_coffee_thum.jpg" alt="Neon coffee logo" class="img-fluid">
+            </a>
+          </div>
+          
+        </div>
+    
+        <!-- Modal 1 -->
+        <div class="modal fade" id="imageModal1" tabindex="-1" aria-labelledby="imageModalLabel1" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel1">Coffee art</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../galerie/images/coffee_art.jpg" alt="Coffee art" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+                <!-- Modal 2 -->
+        <div class="modal fade" id="imageModal2" tabindex="-1" aria-labelledby="imageModalLabel2" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel2">Iced coffee</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../galerie/images/iced_coffee.jpg" alt="Iced coffee" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+               <!-- Modal 3 -->
+        <div class="modal fade" id="imageModal3" tabindex="-1" aria-labelledby="imageModalLabel3" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="imageModalLabel3">Lever in different ways</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                <img src="../galerie/images/lever.jpg" alt="Lever of coffee machine" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+    
+                 <!-- Modal 4 --> 
+        <div class="modal fade" id="imageModal4" tabindex="-1" aria-labelledby="imageModalLabel4" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel3">Types of coffee</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../galerie/images/types_of_coffee.jpg" alt="Types of coffee" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+        <!-- Modal 5 --> 
+          <div class="modal fade" id="imageModal5" tabindex="-1" aria-labelledby="imageModalLabel5" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel3">Coffee machine</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../galerie/images/coffee_machine.jpg" alt="Coffee machine" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+                   <!-- Modal 6 -->
+          <div class="modal fade" id="imageModal6" tabindex="-1" aria-labelledby="imageModalLabel6" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="imageModalLabel3">Coffee neon logo</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                  <img src="../galerie/images/neon_coffee.jpg" alt="Coffee neon logo" class="img-fluid">
+                </div>
+              </div>
+            </div>
+          </div>
+           
+      </div>
+    
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+  <footer>
+    <p>&copy; 2023 Moje Kávové Stránky Aleš Včelka IT1</p>
+  </footer>
+</body>
+
+</html>
