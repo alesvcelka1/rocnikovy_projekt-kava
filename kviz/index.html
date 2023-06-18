@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title class="title">Kvíz</title>
+  
+  <meta name="description"
+  content="Kvíz">
+  <link rel="stylesheet" href="../style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark my-navbar nav-link" >
+    <div class="container">
+      <a class="navbar-brand" href="../index.html">Káva</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="../odrudykavy/index.html">Odrůdy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../puvodKavy/index.html">Původ kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../druhykavy/index.html">Druhy kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../historiekavy/index.html">Historie kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../pripravakavy/index.html">Příprava kávy</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../kavarny/index.html">Kavárny v Opavě</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="../galerie/index.html">Galerie</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="../kviz/index.html">Kvíz</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></li>
+      <li data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></li>
+      
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="../images/Coffee_art.jpg" class="d-block w-100"  alt="Coffee_art">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_machine.jpg" class="d-block w-100" alt="Coffee_machine">
+      </div>
+      <div class="carousel-item">
+        <img src="../images/Coffee_beans.jpg" class="d-block w-100" alt="Coffee_beans">
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </a>
+  </div>
+  <main>
+    <div class="container">
+        <h2>Quiz</h2>
+        <form id="quiz-form">
+            <div class="form-group">
+                <label>1. Otázka: Která z odrůd kávy je nejrozšířenější?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1a1" value="Arabika">
+                    <label class="form-check-label" for="q1a1">
+                       Arabika
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1a2" value="Robusta">
+                    <label class="form-check-label" for="q1a2">
+                        Robusta
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question1" id="q1a3" value="Liberika">
+                    <label class="form-check-label" for="q1a3">
+                        Liberika
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>2. Otázka: Odkud káva nepochází?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2a1" value="Jížní Amerika">
+                    <label class="form-check-label" for="q2a1">
+                        Jížní Amerika
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2a2" value="Severní Amerika">
+                    <label class="form-check-label" for="q2a2">
+                        Severní Amerika
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question2" id="q2a3" value="Střední Amerika">
+                    <label class="form-check-label" for="q2a3">
+                        Střední Amerika
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>3. Otázka: Z kolika espress se skládá flat white?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3a1" value="3">
+                    <label class="form-check-label" for="q3a1">
+                        3
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3a2" value="2">
+                    <label class="form-check-label" for="q3a2">
+                        2
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question3" id="q3a3" value="1">
+                    <label class="form-check-label" for="q3a3">
+                        1
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>4. Otázka: První zmínky o kávě a kde?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4a1" value="7. století Uganda">
+                    <label class="form-check-label" for="q4a1">
+                        7. století Uganda
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4a2" value="8. století Honduras">
+                    <label class="form-check-label" for="q4a2">
+                        8. století Honduras
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id="q4a3" value="9. století Etiopie">
+                    <label class="form-check-label" for="q4a3">
+                        9. století Etiopie
+                    </label>
+                </div>
+            </div>
+            <div class="form-group">
+                <label>5. Otázka: Má nejoblíbenější kavárna?</label>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5a1" value="Cafe Botaniqa">
+                    <label class="form-check-label" for="q5a1">
+                        Cafe Botaniqa
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5a2" value="Fox coffee">
+                    <label class="form-check-label" for="q5a2">
+                        Fox coffee
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question5" id="q5a3" value="La Cafe">
+                    <label class="form-check-label" for="q5a3">
+                        La Cafe
+                    </label>
+                </div>
+            </div>
+            <!-- Pokračujte s dalšími otázkami -->
+            
+            <button type="submit" class="btn btn-dark">Zkontrolovat</button>
+        </form>
+        <div id="results" class="mt-4"></div>
+    </div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+        document.getElementById('quiz-form').addEventListener('submit', function(e) {
+            e.preventDefault(); // Zamezíme odeslání formuláře
+            
+            // Správné odpovědi
+            const correctAnswers = {
+                question1: 'Arabika',
+                question2: 'Severní Amerika',
+                question3: '2',
+                question4: '9. století Etiopie',
+                question5: 'Cafe Botaniqa',
+                // Přidejte správné odpovědi pro další otázky
+            };
+            
+            // Porovnání vybraných odpovědí s odpověďmi uloženými v objektu
+            let score = 0;
+            const formData = new FormData(this);
+            for (const entry of formData.entries()) {
+                const question = entry[0];
+                const answer = entry[1];
+                
+                if (correctAnswers[question] === answer) {
+                    score++;
+                }
+            }
+            
+            // Zobrazení výsledků
+            const resultsDiv = document.getElementById('results');
+            resultsDiv.innerHTML = `<h3>Vaše skóre: ${score}/${Object.keys(correctAnswers).length}</h3>`;
+        });
+    </script>
+  </main>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.bundle.min.js"></script>
+<footer>
+  <p>&copy; 2023 Moje Kávové Stránky  Aleš Včelka IT1</p>
+</footer>
+</body>
+</html>
